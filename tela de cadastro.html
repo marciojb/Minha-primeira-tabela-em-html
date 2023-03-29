@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style type="text/css">
+	h2 {text-align: center; border: solid; background-color: #FFD700; }
+	body {background-color: #F0E68C;}
+</style>
+
+</head>
+<body>
+<h2 style="border:solid;">Tela de Cadastro</h2>
+<label for="fname">nome </label>
+<input style="border:solid; border-color: #1C1C1C;" type="text" id="fname" name="fname" size="50" ><br>
+<label for="pwp">senha: </label>
+<input style="border:solid; border-color: #1C1C1C;" type="password" id="pwp" name="pwp"><br>
+<label for="cpf"> cpf: </label>
+<input style="border:solid; border-color: #1C1C1C;" type="text" id="cpf" name="cpf"><br>
+<label for="endereço:">endereço: </label>
+<textarea style="border:solid; border-color: #1C1C1C;" name="endereço" rows="10" cols="30"></textarea><br>
+<label for="cidade"> cidade:</label>
+<input style="border:solid; border-color: #1C1C1C;" type="cidade" id="cidade" name="cidade" size="50"><br>
+<label for="uf">UF: </label>
+<input style="border:solid; border-color: #1C1C1C;" type="uf" id="uf" name="uf" size="2"><br>
+<label for="email"> e-mail: </label>
+<input style="border:solid; border-color: #1C1C1C;" type="email" id="email" name="email" size="60"><br>
+<p>Sexo:</p>
+<input type="radio" id="Masculino" name="sexo" value="Masculino">
+<label for="radio">Masculino:</label>
+<input type="radio" id="Feminino" name="feminino">
+<label for="radio">Feminino: </label>
+<input type="radio" id="outros" name="outros">
+<label for="radio"> Outros:</label><br>
+<p>Estado Civil:</p>
+<input type="radio" id="solteiro" name="solteiro">
+<label for="radio">Solteiro </label>
+<input type="radio" id="casado" name="casado">
+<label for="radio">Casado</label>
+<input type="radio" id="divorciado" name="divorciado">
+<label for="radio">Divorciado </label>
+<p>Fomaçâo:</p>
+<select id="fomaçao" name="formçao">
+  <option value="medio_completo">Medio completo</option>
+  <option value="medio-incompleto"> Medio Incompleto</option>
+  <option value="ensino_fundamental_completo">Ensino fundamental completo</option>
+  <option value="ensino_fundamental_incompleto">Ensino fundamental incompleto</option>
+</select><br>
+<input type="submit" name="cadastra">
+<input type="reset" name="limpar">
+</body>
+</html>
